@@ -1,4 +1,4 @@
-# Blue/Green Books
+# Blue/Green Books - A Demo Blue/Green Deployment in Django
 This is a demo implementation of an Application-based Blue/Green Deployment in Django.
 If you don't know what Blue/Green Deployment is, [Martin Fowler](https://martinfowler.com/bliki/BlueGreenDeployment.html)
 is always a great starting point.
