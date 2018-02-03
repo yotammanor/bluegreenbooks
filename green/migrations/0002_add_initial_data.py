@@ -3,7 +3,7 @@
 from django.db import migrations
 
 
-def create_initial_books(apps):
+def create_initial_books(apps, schema_editor):
     Book = apps.get_model("green", "Book")
     Book.objects.create(name="Winnie The Pooh", has_leather_binding=True)
     Book.objects.create(name="Ender's Game", has_leather_binding=False)
