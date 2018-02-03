@@ -1,11 +1,23 @@
-# bluegreenbooks
-A demo implementation of an Application-based Blue/Green Migration in Django.
-This project is the companion of [this talk](https://github.com/yotammanor/bluegreenbooks/blob/master/PyWebIL%20-%20App%20Based%20Blue%20Green%20Migrations%20With%20Django.pptx), although both are
-standalone, and each can (hopefully) be understood without the other.
+# Blue/Green Books
+This is a demo implementation of an Application-based Blue/Green Deployment in Django.
+If you don't know what Blue/Green Deployment is, [Martin Fowler](https://martinfowler.com/bliki/BlueGreenDeployment.html)
+is always a great starting point.
 
-This implementation heavily draws on https://github.com/jazzband/django-hosts, and on
+App-based Blue/Green Deployment is similar to a regular Blue/Green, but all the blue/green
+mechanisms are implemented inside a single app, talking with one database that supports only one
+schema structure at a given moment. This greatly simplifies the complexity of maintaining data
+consistency, without any degragation in the user experience (no need for read-only mode).
+
+This is an experimental approach, and this project shows a complete working walkthrough of a
+naively simple case. I'd love to hear if you tried it in a more complex setting, and whether you
+succeeded or faced problems that failed the approach.
+
+This project is the companion of [this talk](https://github.com/yotammanor/bluegreenbooks/blob/master/PyWebIL%20-%20App%20Based%20Blue%20Green%20Migrations%20With%20Django.pptx), originally given at [PyWeb-IL](https://www.meetup.com/PyWeb-IL/events/246639354/). Both the talk and the repo are
+standalones, and each can (hopefully) be understood without the other.
+
+Credits: This implementation heavily draws on https://github.com/jazzband/django-hosts, and on
 [work done](https://github.com/masschallenge/standards/blob/master/blue_green_transitions.md)
-by my team and I at MassChallenge Inc.
+by my team and I at [MassChallenge Inc.](http://masschallenge.org/join-our-team)
 
 Comments, suggestions and spin-offs are more than welcome.
 
