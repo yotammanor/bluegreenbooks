@@ -38,9 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'green.apps.CoreConfig',
+    'router.apps.RouterConfig',
 ]
 
 MIDDLEWARE = [
+    'router.middleware.ColorRouterRequestMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -48,6 +50,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'router.middleware.ColorRouterResponseMiddleware',
 ]
 
 ROOT_URLCONF = 'bluegreenbooks.urls'
