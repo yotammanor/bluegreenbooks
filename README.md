@@ -32,7 +32,7 @@ Comments, suggestions and spin-offs are more than welcome.
 ## Step 1 - Setup Green App
 
 1. `git checkout step-1`
-2. `./manage.py migrate
+2. `./manage.py migrate`
 3. `./manage.py runserver <port>`
 4. go to: http://localhost:<port>/books/ - see green app serving initial data.
 
