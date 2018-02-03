@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'green.apps.GreenConfig',
+    'blue.apps.BlueConfig',
     'router.apps.RouterConfig',
 ]
 
