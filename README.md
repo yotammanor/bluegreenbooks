@@ -58,4 +58,4 @@ Blue app is exact copy of green, waiting to be changed
 
 ## Step 6 - ?
 
-## Step 7 - Profit
+## Step 7 - Profit!
