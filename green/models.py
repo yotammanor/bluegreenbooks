@@ -6,5 +6,5 @@ class Book(models.Model):
     has_leather_binding = models.BooleanField(default=False)
 
     def __str__(self):
-        return (f"{self.name}"
-                f"{', in leather' if self.has_leather_binding else ''}")
+        return (f"{self.name}, "
+                f"{'in leather' if self.has_leather_binding else 'regular'}")

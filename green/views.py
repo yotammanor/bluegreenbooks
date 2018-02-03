@@ -1,4 +1,4 @@
-from green.models import Book
+from .models import Book
 from django.http.response import JsonResponse
 
 
