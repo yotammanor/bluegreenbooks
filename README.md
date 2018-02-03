@@ -17,7 +17,7 @@ standalones, and each can (hopefully) be understood without the other.
 
 Credits: This implementation heavily draws on https://github.com/jazzband/django-hosts, and on
 [work done](https://github.com/masschallenge/standards/blob/master/blue_green_transitions.md)
-by my team and I at [MassChallenge Inc.](http://masschallenge.org/join-our-team)
+by my team and I at [MassChallenge Inc.](http://masschallenge.org/join-our-team).
 
 Comments, suggestions and spin-offs are more than welcome.
 
