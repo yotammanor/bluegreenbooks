@@ -35,7 +35,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'green.apps.GreenConfig',
     'blue.apps.BlueConfig',
     'router.apps.RouterConfig',
 ]
@@ -53,7 +52,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'bluegreenbooks.urls'
-MIGRATION_NAME_SWITCH = '0002_remove_unwanted_field'
 
 TEMPLATES = [
     {
