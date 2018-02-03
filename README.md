@@ -27,6 +27,7 @@ Comments, suggestions and spin-offs are more than welcome.
 
 - Python 3.6
 - Django 2.0
+- Git installed locally.
 - Project is cloned locally.
 
 ## Step 1 - Setup Green App
